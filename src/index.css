@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightblue;
+}
+.todo-container{
+  width: 300px;
+  min-height: 300px;
+  background-color: #63076a;
+  margin: 20px auto;
+
+}
+header{
+  background-color:blueviolet;
+  padding: 10px;
+  margin-bottom: 0;
+}
+h1{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  
+}
+
+.todo-input{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  
+  
+}
+input[type='text']{
+  padding: 7px 10px;
+  border: 1px solid #333;
+  outline: none;
+  width: 80%;
+}
+.add-btn{
+  padding: 3px 10px;
+  font-size: 13px;
+  background-color: #d27dd8;
+  color: white;
+  border: none;
+}
+.list-container{
+  width:93%;
+  background-color: #ece1ec;
+  padding: 4px ;
+  margin-top: 5px;
+  margin: 5px auto;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+
+}
+.delete-btn{
+  margin-right: 5px;
+  padding: 4px;
+  background-color: darkred;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.update-btn{
+  padding:4px ;
+  background-color: #63076a;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.fot-note{
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clear-btn{
+  margin-right: 10px;
+  padding: 7px;
+  background-color: #d27dd8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
